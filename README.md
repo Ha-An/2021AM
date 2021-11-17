@@ -6,8 +6,8 @@
 
 
 # Prerequisites
-* BLENDER 2.82 & PYTHON 3.7.4 (embeded script), https://www.blender.org/download/releases/2-82/
-* V-HACD
+* [BLENDER 2.82](https://www.blender.org/download/releases/2-82/) -> **It must be Ver. 2.82**
+* [V-HACD](https://github.com/kmammou/v-hacd)
 
 # Usage
 * The Python code of "Evaluation_indicators" is run in the script embedded in Blender 2.82
