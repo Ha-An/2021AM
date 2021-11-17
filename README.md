@@ -16,7 +16,8 @@
 
 
 # Contact Information
-
+  - Soonjo Kwon, soonjo.kwon@kumoh.ac.kr
+ - Yosep Oh, yosep.oh@kyonggi.ac.kr
 
 # Version
 
