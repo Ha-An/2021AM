@@ -1,5 +1,5 @@
 # Introduction
-* The code has been developed to evaluate the performance of 3D printing for a certain 3D model. 
+* The code has been developed to evaluate the performance of 3D printing for decomposed 3D models. 
 * This work is a part of a research paper [[Oh et al. (2021)](https://doi.org/10.1016/j.addma.2020.101702)]
 
 
