@@ -1,12 +1,10 @@
 # Introduction
 * The code has been developed to evaluate the performance of 3D printing for decomposed 3D models. 
-* This work is a part of a research paper [[Oh et al. (2021)](https://doi.org/10.1016/j.addma.2020.101702)]
-
-
+* This work is part of the part decomposity study [[Oh et al. (2021)](https://doi.org/10.1016/j.addma.2020.101702)]
 
 
 # Prerequisites
-* [BLENDER 2.82](https://www.blender.org/download/releases/2-82/) -> **It must be Ver. 2.82**
+* [BLENDER 2.82](https://www.blender.org/download/releases/2-82/) -> **It must be Ver2.82**
 * [V-HACD](https://github.com/kmammou/v-hacd)
 
 # Usage
