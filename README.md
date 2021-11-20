@@ -1,7 +1,6 @@
 # Introduction
 * This work is part of the _**part decomposition (PD)**_ study [[Oh et al. (2021)](https://doi.org/10.1016/j.addma.2020.101702)].
-* In the study, we developed 8 indicators to evaluate decomposed 3D models in terms of engineering design.
-* The 8 indicators can be applied to identifying how an initial model is well decomposed into several pieces for 3D printing (also known as additive manufacturing). 
+* In the study, we developed 8 indicators to evaluate decomposed 3D models in terms of engineering design. The 8 indicators can be applied to identifying how an initial model is well decomposed into several pieces for 3D printing (also known as additive manufacturing). 
 * The code helps calculate the following 8 evaluation indicators:  
   - Roughtness: the roughness of part surface
   - Overhang: the extent of critical overhang facets
@@ -11,7 +10,16 @@
   - Feasibility: the feasibility of decomposed parts
   - Interface: the area of connection interface
   - Quantity: the number of decomposed components
+* The code involves two types of part decomposition (PD) algorithms: concave feature-based PD (CPD) and convex feature-based PD (VPD). When running the code an initial model is decomposed into sub-parts and then the decomposed sub-parts are evaluated based on the 8 indicators. 
+  - In our study, the V-HACD algorithm is applied to CPD
+  - If some of the decomposed parts are infeasible, VPD is automatically applied to make them feasible. 
 
+![image](https://user-images.githubusercontent.com/59811007/142722693-2336bd91-45b4-499c-bd3d-2b2a865d50be.png)
+
+
+![image](https://user-images.githubusercontent.com/59811007/142722692-eaa0c61d-7503-49c9-9a80-05b9822c10c3.png)
+
+ 
 
 # Prerequisites
 * [BLENDER 2.82](https://www.blender.org/download/releases/2-82/) -> **It must be Ver2.82**
@@ -20,7 +28,7 @@
 # Usage 
 (1) Install and run Blender 2.82
 
-(2) Import V-HACD
+(2) [Import V-HACD](https://github.com/andyp123/blender_vhacd)  
 
 (3) Put the Python code of "eval_PD.py" to the script embedded in Blender 2.82
 
