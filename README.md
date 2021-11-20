@@ -32,7 +32,7 @@
 
 
 # Contact
-* Yosep Oh, yosep.oh@kyonggi.ac.kr
+* Yosep Oh, yosep.oh@kgu.ac.kr
 * Soonjo Kwon, soonjo.kwon@kumoh.ac.kr
 
 # Version
